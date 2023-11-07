@@ -1,0 +1,64 @@
+
+
+myArray = [
+    {
+      key: 'bunny.glb',
+      text: 'Bunny',
+      value: 'bunny.glb',
+      image: { avatar: true, src: '/images/avatar/small/jenny.jpg' },
+    },
+    {
+      key: 'teapot.glb',
+      text: 'Teapot',
+      value: 'teapot.glb',
+      image: { avatar: true, src: '/images/avatar/small/elliot.jpg' },
+    },
+    {
+      key: 'cornellBox.glb',
+      text: 'Cornell',
+      value: 'cornellBox.glb',
+      image: { avatar: true, src: '/images/avatar/small/stevie.jpg' },
+    },
+    {
+      key: 'dragon.glb',
+      text: 'Dragon',
+      value: 'dragon.glb',
+      image: { avatar: true, src: '/images/avatar/small/christian.jpg' },
+    },
+    {
+      key: 'head.glb',
+      text: 'Head',
+      value: 'head.glb',
+      image: { avatar: true, src: '/images/avatar/small/matt.jpg' },
+    },
+    {
+      key: 'vw.glb',
+      text: 'VW',
+      value: 'vw.glb',
+      image: { avatar: true, src: '/images/avatar/small/justen.jpg' },
+    },
+    {
+      key: 'matsphere.glb',
+      text: 'MatSphere',
+      value: 'matsphere.glb',
+      image: { avatar: true, src: '/images/avatar/small/justen.jpg' },
+    },
+    {
+      key: 'conference_room.glb',
+      text: 'Conference Room',
+      value: 'conference_room.glb',
+      image: { avatar: true, src: '/images/avatar/small/justen.jpg' },
+    },
+    {
+      key: 'buddha.glb',
+      text: 'Buddha',
+      value: 'buddha.glb',
+      image: { avatar: true, src: '/images/avatar/small/justen.jpg' },
+    },
+    {
+      key: 'soma.glb',
+      text: 'SOMA',
+      value: 'soma.glb',
+      image: { avatar: true, src: '/images/avatar/small/justen.jpg' },
+    },
+]

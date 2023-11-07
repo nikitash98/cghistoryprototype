@@ -1,0 +1,70 @@
+{
+    "bunny.glb": {
+        "title": "Stanford Bunny",
+        "text": " The Stanford bunny is a computer graphics 3D test model developed by Greg Turk and Marc Levoy in 1994 at Stanford University. The model consists of 69,451 triangles, with the data determined by 3D scanning a ceramic figurine of a rabbit.[1] This figurine and others were scanned to test methods of range scanning physical objects.[2] The data can be used to test various graphics algorithms, including polygonal simplification, compression, and surface smoothing. There are a few complications with this dataset that can occur in any 3D scan data: the model is manifold connected and has holes in the data, some due to scanning limits and some due to the object being hollow.[3] These complications provide a more realistic input for any algorithm that is benchmarked with the Stanford bunny,[4] though by today's standards, in terms of geometric complexity and triangle count, it is considered a simple model. The model was originally available in .ply (polygons) file format in four different resolutions.[citation needed] The model can be found at https://graphics.stanford.edu/data/3Dscanrep/[5]",
+        "scale": 1.0,
+        "img": "Images/bunny.jpg"
+    },
+    "teapot.glb": {
+        "title": "bunny",
+        "text": "The Utah teapot, or the Newell teapot, is a 3D test model that has become a standard reference object and an in-joke[1] within the computer graphics community. It is a mathematical model of an ordinary Melitta-brand teapot that appears solid with a nearly rotationally symmetrical body. Using a teapot model is considered the 3D equivalent of a Hello, World! program, a way to create an easy 3D scene with a somewhat complex model acting as the basic geometry for a scene with a light setup. Some programming libraries, such as the OpenGL Utility Toolkit,[2] even have functions dedicated to drawing teapots.",
+        "scale": 0.01,
+        "img": "Images/teapot.jpg"
+
+    },
+    "conference_room.glb": {
+        "title": "Conference Room",
+        "text": "A 3D model of the real Lawrence Berkeley National Laboratory building 90 3rd floor conference room originally created by Anat Grynberg and Greg Ward, circa 1991. The model was created from manual measurements with coordinates directly typed into a text editor. It is commonly used for global illumination experiments.        This model was flipped inside-out at some point in history and appears backwards in some papers relative to the original, with the EXIT signs reading as if in a mirror. Kenzie Lamar at Vicarious Visions fixed the face winding directions on all surfaces to be consistent, re-modeled the trash cans and fire extinguisher to have reasonable normals and joints with no interpenetration, replaced the radiator vents with a single panel, and flipped the EXIT signs. The textures observable (especially in the wood grain) in Ward's original rendering are procedural and are not represented in this model.",
+        "scale": 0.001,
+        "img": "Images/conference.jpg"
+
+    },
+    "cornellBox.glb": {
+        "title": "bunny",
+        "text": "The Cornell box is a test aimed at determining the accuracy of rendering software by comparing the rendered scene with an actual photograph of the same scene,[1] and has become a commonly used 3D test model. It was created by Cindy M. Goral, Kenneth E. Torrance, Donald P. Greenberg, and Bennett Battaile at the Cornell University Program of Computer Graphics for their paper Modeling the Interaction of Light Between Diffuse Surfaces published and presented at SIGGRAPH'84.[2][3]        ",
+        "scale": 1.0,
+        "img": "Images/cornellBox.jpg"
+
+
+    },
+    "dragon.glb": {
+        "title": "Dragon",
+        "text": "The Stanford dragon is a computer graphics 3D test model created with a Cyberware 3030 Model Shop (MS) Color 3D Scanner at Stanford University. The data for the model was produced in 1996. The dragon consists of data describing 871,414 triangles[note 1][1] determined by 3D scanning a real figurine. The data set is often used to test various graphics algorithms, including polygonal simplification, compression, and surface smoothing,[2] similar to the Stanford bunny (1993). The model is available in different file formats (.ply, vrml, vl, etc.) on the internet for free.",
+        "scale": 1.0,
+        "img": "Images/dragon.jpg"
+
+    },
+    "head.glb": {
+        "title": "LPS Head",
+        "text": "Infinite-Realities Director Lee Perry-Smith created a 3D scan of his head. Morgan McGuire and Guedis Cardenas at Williams College converted the displacement file from .tif to 16-bit .png and created created a low resolution version of the bump map. We set up the .mtl file's texture maps, painted the bump map so that it is seamless at the back of the head, and adjusted the default glossy highlight to better simulate a 3D head.        ",
+        "scale": 1.0,
+        "img": "Images/head.png"
+
+    },
+    "matsphere.glb": {
+        "title": "Knob",
+        "text": "Yasutoshi Mori created this light transport material test orb. Morgan McGuire at Williams College converted it from blender to OBJ + MTL format, fixed interpenetrations in the geometry, and added G3D Articulated Model files. Preview rendering by Syoyo Fujita.        ",
+        "scale": 0.1,
+        "img": "Images/knob.jpg"
+
+    },
+    "vw.glb": {
+        "title": "VW",
+        "text": "Sutherland's Volkswagen, or the Utah VW Bug, is a 3D model. It is a mathematical model of a 1967 Volkswagen Beetle and one of the earliest 3D computer models, aside from Catmull's hand. The Volkswagen model was created by students[1] of Professor Ivan Sutherland in 1972[2] at the University of Utah. The students created the model by measuring a real version of the car with yardsticks. Only the car body is modeled, not the wheels or chassis. The model became slightly iconic after all the various parts, as measured by students, were pieced together, with the necessary rotations, scaling, and translations.[2]",
+        "scale": 0.1,
+        "img": "Images/vw.jpg"
+
+    }, 
+    "buddha.glb": {
+        "title": "Buddha",
+        "text": "Brian Curless and Marc Levoy created this model from multiple range scans of a real object using a Cyberware 3030 MS scanner. Morgan McGuire converted the PLY from Georgia Tech to IFS, computed vertex normals, and then exported it OBJ format using G3D. The model is hole-free, but contains small bridges due to space carving, so its topological genus is larger than it appears        ",
+        "scale": 1.0,
+        "img": "Images/buddha.png"
+    },
+    "soma.glb": {
+        "title": "SOMA",
+        "text": "SOMA",
+        "scale": 1.0,
+        "img": "Images/soma.jpg"
+    }
+}
